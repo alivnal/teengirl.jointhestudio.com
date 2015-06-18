@@ -166,11 +166,11 @@ Visuals:<br>
 				directionalLight2.color.setHSL( 0.08, 1, 0.825 );
 				scene.add( directionalLight2 );
                 
-               //var flashlight = new THREE.SpotLight(0xffffff,4,40);
-                //camera.add(flashlight);
-               // flashlight.position.set(0,0,.5);
-               // flashlight.target = camera;
-                var hemisphereLight = new THREE.HemisphereLight(0x66FFFF,0xFF00FF,2)
+               var flashlight = new THREE.SpotLight(0xffffff,4,40);
+               camera.add(flashlight);
+               flashlight.position.set(0,0,.5);
+               flashlight.target = camera;
+                
 
 			
 
