@@ -296,7 +296,7 @@ Visuals:<br>
                     object.scale.set(52,52,52)
                     object.rotation.y = -40
 					scene.add( object );
-          var light = new THREE.DirectionalLight( 0xffffff, 2 );
+          var light = new THREE.AmbientLight( 0xffffff);
                  directionalLight.position.set( 0, 0, 0 );
           scene.add( light );
 				}, onProgress, onError );
